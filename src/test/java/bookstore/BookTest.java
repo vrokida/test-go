@@ -8,8 +8,16 @@ import static org.junit.Assert.*;
 public class BookTest {
 
     @Test
-    public void shouldCreateABook(){
+    public void shouldCreateABookWithParameters(){
         Book book = new Book("autor","titulo");
         assertNotNull(book);
     }
+
+    @Test
+    public void shouldCreateABookWithoutParameters(){
+        Book book = new Book();
+        assertNotNull(book);
+    }
+
+
 }

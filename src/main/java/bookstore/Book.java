@@ -12,4 +12,8 @@ public class Book {
         this.title = title;
         this.autor = autor;
     }
+
+    public Book() {
+
+    }
 }
