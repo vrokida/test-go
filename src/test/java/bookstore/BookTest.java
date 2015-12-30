@@ -16,7 +16,7 @@ public class BookTest {
     @Test
     public void shouldCreateABookWithoutParameters(){
         Book book = new Book();
-        assertNotNull(null);
+        assertNotNull(book);
     }
 
 
